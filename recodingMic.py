@@ -8,7 +8,7 @@ r = sr.Recognizer()
 file_name = str(input("What is your Name?"))
 count = 1
 
-for i in range(10) : # 10번 반
+for i in range(10) : # 10번 반복
     with sr.Microphone() as source:
         print("Say Bed-Bird-Cat-Dog-Down !")
         audio = r.listen(source)
